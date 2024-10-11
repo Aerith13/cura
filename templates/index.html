@@ -6,9 +6,7 @@
     <title>Excel OCR Add-in</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropper/4.1.0/cropper.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <styles>
+    <style>
         body {
             font-family: monospace;
             max-width: 800px;
@@ -55,26 +53,10 @@
             width: 0%;
             border-radius: 5px;
         }
-        .icon-container {
-            position: relative;
-            text-align: center; /* Center the icon */
-            margin-bottom: -20px; /* Adjust this value to move it above the button */
-        }
-        .icon-container i {
-            font-size: 16px; /* Adjust the size of the icon */
-            color: #ff0000; /* Optional: Change the color of the icon */
-        }     
-    </styles> 
+    </style>
 </head>
-
-
 <body>
-    <h1>Excel OCR Addin v.7 🦑 <a href="help.html"><i class="fas fa-question-circle" title="Help"></i></a></h1>
-    <div class="icon-container">
-        <a href="help.html">
-            <i class="fas fa-question-circle" title="Help"></i>
-        </a>
-    </div>
+    <h1>Excel OCR Addin v.7 🦑</h1>
     <div id="dropZone">Drag and drop an image file here or click to select</div>
     <input type="file" id="fileInput" style="display: none;" accept="image/*">
     <div id="imageContainer">
